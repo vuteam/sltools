@@ -1,0 +1,30 @@
+<screen name="IPKinstFHD" flags="wfNoBorder" position="0,0" size="1920,1080" title="..::SatLodge Panel Addon Manager::.." backgroundColor="#ffffffff" zPosition="-1" transparent="0">
+  <ePixmap position="0,0" size="1920,1080" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/menu_plug_lsFHD.png" />  
+  <widget name="title" position="472,31" zPosition="3" size="908,66" font="font2;40" foregroundColor="#ffcc33" backgroundColor="black" transparent="1" halign="center" />
+  <widget name="version" position="1544,36" zPosition="3" size="324,50" font="font2;30" backgroundColor="background" transparent="1" foregroundColor="#ffffff" halign="right" />
+  <widget name="maintener" position="1379,36" zPosition="3" size="324,50" font="font2;30" backgroundColor="background" transparent="1" foregroundColor="#ffffff" halign="center" />
+  <widget name="text" itemHeight="40" position="140,257" font="font1;32" size="1213,587" foregroundColor="#ffffff" foregroundColorSelected="#0000ff" backgroundColorSelected="#b8b8b8" zPosition="2" />
+  <!--eLabel text="Put in /tmp addon plugin .ipk and install" position="179,165" size="700,60" transparent="1" font="font1;32" foregroundColor="#ffcc33" zPosition="5" /-->
+  <widget name="info1" position="42,865" zPosition="3" size="1392,80" font="font1;30" foregroundColor="#ffffff" backgroundColor="black" transparent="1" halign="center" />
+  <widget source="ipkglisttmp" render="Listbox" itemHeight="50" font="font1;30" position="139,250" size="1215,579" foregroundColor="#ffffff" foregroundColorSelected="#0000ff" backgroundColorSelected="#b8b8b8" transparent="1" zPosition="2">
+  <convert type="StringList" />
+  </widget>
+  <ePixmap name="green" position="260,1014" zPosition="2" size="141,44" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/green.png" transparent="1" alphatest="on" />
+  <widget name="key_green" halign="left" position="300,992" zPosition="3" size="268,66" font="font1;34" backgroundColor="background" transparent="1" foregroundColor="#ffffff" />
+  <ePixmap name="blue" position="869,1013" zPosition="2" size="141,44" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/blue.png" transparent="1" alphatest="on" />
+  <widget name="key_blue" position="909,1002" size="268,66" halign="left" zPosition="3" font="font1;34" backgroundColor="background" transparent="1" foregroundColor="#ffffff" />
+  <ePixmap name="yellow" position="572,1012" zPosition="2" size="141,45" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/yellow.png" transparent="1" alphatest="on" />
+  <widget name="key_yellow" halign="left" position="612,992" zPosition="3" size="268,66" font="font1;34" backgroundColor="background" transparent="1" foregroundColor="#ffffff" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/fleche1FHD.png" position="464,36" size="60,60" alphatest="blend" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/fleche2FHD.png" position="403,36" size="60,60" alphatest="blend" />
+  <ePixmap position="71,36" size="120,50" zPosition="10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/okFHD.png" transparent="1" alphatest="blend" />
+  <ePixmap position="180,36" size="120,50" zPosition="10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/exitFHD.png" transparent="1" alphatest="blend" />
+  <ePixmap position="290,36" size="120,50" zPosition="10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/menuFHD.png" transparent="1" alphatest="blend" />
+  <widget source="global.CurrentTime" render="Label" position="1333,1010" size="200,50" font="Regular;32" halign="right" backgroundColor="black" foregroundColor="grey" transparent="1">
+  <convert type="ClockToText">Format:%d.%m.%Y</convert></widget>
+  <widget source="global.CurrentTime" render="Label" position="1532,1010" size="100,50" font="Regular;32" halign="right" backgroundColor="black" transparent="1">
+  <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget name="info" halign="left" position="149,130" zPosition="3" size="1233,78" font="font1;28" foregroundColor="#ffffff" transparent="1" />
+<eLabel name="label" position="133,230" size="1213,587" />
+</screen>

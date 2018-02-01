@@ -1,0 +1,15 @@
+<screen name="Skin" flags="wfNoBorder" position="center,center" size="1175,600" title="..::SatLodge Panel Addon Manager::.." backgroundColor="#ffffffff" zPosition="-1" transparent="0">
+  <ePixmap position="0,0" size="1175,600" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/menu_plug_ls.png" />
+  <widget name="title" position="344,10" zPosition="3" size="500,50" font="font2;28" foregroundColor="#ffcc33" backgroundColor="black" transparent="1" halign="center" />
+  <widget name="version" position="824,11" zPosition="3" size="324,50" font="font2;24" backgroundColor="#2518252e" transparent="1" foregroundColor="#ffffff" halign="right" />
+  <widget name="maintener" position="726,11" zPosition="3" size="324,50" font="font2;24" backgroundColor="#2518252e" transparent="1" foregroundColor="#ffffff" halign="center" />
+  <widget name="text" itemHeight="30" position="53,97" size="500,420" foregroundColor="#ffffff" foregroundColorSelected="#0000ff" backgroundColorSelected="#b8b8b8" scrollbarMode="showOnDemand" zPosition="2" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/fleche1.png" position="290,11" size="48,48" alphatest="blend" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/fleche2.png" position="245,10" size="48,48" alphatest="blend" />
+  <ePixmap position="22,11" size="71,39" zPosition="10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/ok.png" transparent="1" alphatest="blend" />
+  <ePixmap position="94,11" size="71,39" zPosition="10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/exit.png" transparent="1" alphatest="blend" />
+  <ePixmap position="169,11" size="71,39" zPosition="10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/menu.png" transparent="1" alphatest="blend" />
+  <widget name="info" position="50,550" zPosition="4" size="920,40" font="font1;28" foregroundColor="#7fff00" transparent="1" />
+  <!--widget name="country" position="562,299" size="280,210" zPosition="2" backgroundColor="#000000" transparent="0" alphatest="on" /-->
+  <!--widget alphatest="on" name="Preview" position="562,299" size="280,210" /-->
+</screen>

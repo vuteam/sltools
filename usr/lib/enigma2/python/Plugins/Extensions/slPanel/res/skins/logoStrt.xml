@@ -1,0 +1,3 @@
+  <screen name="logoStrt" position="center,center" size="462,454" flags="wfNoBorder">
+  <ePixmap position="0,0" size="462,454" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/slPanel/res/pics/sl_hd.png" />
+  </screen>
